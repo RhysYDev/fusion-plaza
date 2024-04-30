@@ -26,5 +26,11 @@
    "editor.defaultFormatter": "HookyQR.beautify",
    "[html]": {
       "editor.defaultFormatter": "vscode.html-language-features"
+<<<<<<< HEAD
+=======
+   },
+   "[css]": {
+      "editor.defaultFormatter": "vscode.css-language-features"
+>>>>>>> about-page-rhys
    }
 }
