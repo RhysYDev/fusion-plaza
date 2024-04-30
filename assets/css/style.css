@@ -100,18 +100,18 @@
 
 .flex-for-nut-bar {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: 50vh;
 }
 
 .recipe-title {
     display: flex;
-    justify-self: center;
+    align-self: center;
 }
 
 .container-for-nut-bar {
     display: flex;
-    justify-self: flex-end;
+    align-self: baseline;
     height: 10vh;
     border: 1px solid red;
 }
