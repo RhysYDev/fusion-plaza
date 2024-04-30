@@ -1,55 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap');
 
 
+.inline-block {
+    display: inline-block;
+}
+
 /*-- Colors --*/
 
-.ui-menu-color-home {
-    background-color: blueviolet;
-    margin: 10px;
-}
-
-.ui-menu-color-about {
-    background-color: rgb(18, 48, 218);
-    margin: 10px;
-}
-
-.ui-menu-color-recipe {
-    background-color: rgb(2, 113, 128);
-    margin: 10px;
-}
-
-.ui-menu-color-shop-advice {
-    background-color: rgb(13, 214, 90);
-    margin: 10px;
-}
-
-.ui-page-title {
-    background-color: rgb(255, 0, 0);
-    text-align: center;
-}
-
-.ui-menu-color-home {
-    color: #fff;
-}
-
-.ui-menu-color-about {
-    color: #fff;
-}
-
-.ui-menu-color-recipe {
-    color: #fff;
-}
-
-.ui-menu-color-shop-advice {
-    color: #fff;
-}
 
 /*-- logo --*/
 .fusion-logo {
     max-width: 80px;
     max-height: 80px;
     border-radius: 50%;
-    }
+}
 
 /*-- Navbar --*/
 
@@ -74,13 +38,12 @@
 }
 
 #logo-title {
-    position: relative;
+
     margin-left: 15px;
-    padding-top: 15px;
+
 }
 
 .burger {
-    position: relative;
     right: 0;
     padding-right: 20px;
 
@@ -98,6 +61,12 @@
     background-color: #603540;
     color: #d4d4d0;
     font-family: 'Almendra SC', sans-serif;
+    text-align: center;
+    min-height: 50px;
+}
+
+.social-links a {
+    color: #d4d4d0;
 }
 
 /*-- About page --*/
@@ -116,7 +85,7 @@ img {
 
 .image-container {
     display: flex;
-    
+
 }
 
 .btn {
@@ -125,4 +94,11 @@ img {
 
 .dropdown-menu {
     width: 15px;
+}
+
+.btn-secondary {
+    background-color: #d4d4d0;
+    color: #603540;
+    border-color: #d4d4d0;
+    border-radius: 50%;
 }
