@@ -97,3 +97,21 @@
         max-width: 100vw;
     }
 }
+
+.flex-for-nut-bar {
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+}
+
+.recipe-title {
+    display: flex;
+    justify-self: center;
+}
+
+.container-for-nut-bar {
+    display: flex;
+    justify-self: flex-end;
+    height: 10vh;
+    border: 1px solid red;
+}
