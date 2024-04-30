@@ -20,3 +20,26 @@
     background-color: rgb(255, 0, 0);
     font-weight: 500;
 }
+
+.ui-menu-color-home {
+    color: #fff;
+}
+
+.ui-menu-color-about {
+    color: #fff;
+}
+
+.ui-menu-color-recipe {
+    color: #fff;
+}
+
+.ui-menu-color-shop-advice {
+    color: #fff;
+}
+
+/*-- Formatting --*/
+
+.navbar a {
+    text-align: center;
+    padding: 10px 10px;
+}
