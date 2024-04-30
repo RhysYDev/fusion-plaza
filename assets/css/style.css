@@ -51,3 +51,22 @@
 .navbar a {
     padding: 10px 10px;
 }
+
+/*-- About page --*/
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*-- Images --*/
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+.image-container {
+    display: flex;
+    
+}
