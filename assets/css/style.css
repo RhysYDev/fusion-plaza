@@ -1,0 +1,22 @@
+/*-- Colors --*/
+
+.ui-menu-color-home {
+    background-color: blueviolet;
+}
+
+.ui-menu-color-about {
+    background-color: rgb(18, 48, 218);
+}
+
+.ui-menu-color-recipe {
+    background-color: rgb(2, 113, 128);
+}
+
+.ui-menu-color-shop-advice {
+    background-color: rgb(13, 214, 90);
+}
+
+.ui-page-title {
+    background-color: rgb(255, 0, 0);
+    font-weight: 500;
+}
