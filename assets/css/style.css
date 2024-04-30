@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap');
 
-/*-- logo --*/
-.fusion-logo {
-    max-width: 80px;
-    max-height: 80px;
-    border-radius: 50%;
-    /* display: inline-block; */
-}
-
 
 /*-- Colors --*/
 
@@ -52,6 +44,13 @@
     color: #fff;
 }
 
+/*-- logo --*/
+.fusion-logo {
+    max-width: 80px;
+    max-height: 80px;
+    border-radius: 50%;
+    }
+
 /*-- Navbar --*/
 
 .navbar {
@@ -75,7 +74,20 @@
 }
 
 #logo-title {
+    position: relative;
     margin-left: 15px;
+    padding-top: 15px;
+}
+
+.burger {
+    position: relative;
+    right: 0;
+    padding-right: 20px;
+
+}
+
+.nav-item {
+    padding-left: 15px;
 }
 
 /*-- Footer--*/
@@ -84,7 +96,7 @@
     position: absolute;
     bottom: 0;
     background-color: #603540;
-    color: #688274;
+    color: #d4d4d0;
     font-family: 'Almendra SC', sans-serif;
 }
 
@@ -105,4 +117,12 @@ img {
 .image-container {
     display: flex;
     
+}
+
+.btn {
+    right: 5px;
+}
+
+.dropdown-menu {
+    width: 15px;
 }
