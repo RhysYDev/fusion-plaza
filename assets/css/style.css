@@ -142,3 +142,9 @@ ul > li {
 ol > li {
     margin: 4vh;
 }
+
+@media (min-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+}
