@@ -310,7 +310,7 @@
     
 }
 
-ul > li {
+.nobullet {
     list-style-type: none;
 }
 
@@ -319,7 +319,7 @@ ul > li {
     text-align: center;
 }
 
-ol > li {
+.listmargin {
     margin: 4vh;
 }
 
