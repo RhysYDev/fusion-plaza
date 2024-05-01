@@ -17,25 +17,32 @@
   <header>
     <nav class="navbar sticky-top navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="assets/images/Fusion Dragon Logo.jpg"
+        <a class="navbar-brand inline-block" href="index.html"><img src="assets/images/Fusion Dragon Logo.jpg"
             alt="logo of a dragon behind a bowl of noodles" class="fusion-logo">
-          <span id="logo-title">Fusion Dragon</span></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <span class="inline-block" id="logo-title">Fusion Dragon</span></a>
+        <div class="burger">
           <ul class="navbar-nav">
-            <li class="nav-item">
+            <li class="nav-item d-none d-md-block inline-block">
               <a class="nav-link active" aria-current="page" href="index.html">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-md-block inline-block">
               <a class="nav-link" href="recipe-home-page.html">Recipes</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item d-none d-md-block inline-block">
               <a class="nav-link" href="about.html">About</a>
             </li>
+           
           </ul>
+          <div class="dropdown">
+            <button class="btn btn-secondary d-block d-md-none" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <i class="fa-solid fa-dragon"></i>
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+              <a href="index.html" class="dropdown-item">Home</a>
+              <a href="recipe-home-page.html" class="dropdown-item">Recipes</a>
+              <a href="about.html" class="dropdown-item">About</a>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
@@ -68,24 +75,8 @@
   </div>
   <footer class="footer container-fluid footer-color sticky-bottom" id="footer">
     <div id="footer-details" class="row">
-      <div class="col-sm-4">
-        <h5 class="uppercase general-sub">About</h5>
-        <p class="inline-block">A Junior Software Developer currently learning the inns and outs of coding. </p>
-
-      </div>
-      <div class="col-sm-4">
-        <h5 class="uppercase general-sub">Download</h5>
-        <p class="inline-block">
-          Need a printable version of my CV? Download it here.
-          <a href="assets/cv/Lydia-cv.pdf" target="_blank" class="cv-pdf">
-            <i class="fa fa-download" aria-hidden="true"></i>
-            <span class="sr-only">Download Link.</span>
-          </a>
-        </p>
-
-      </div>
-      <div class="col-sm-4">
-        <h5 class="uppercase general-sub">Social</h5>
+       <div class="col-sm-12">
+        <h5 class="uppercase general-sub">Socials</h5>
         <ul class="list-inline social-links">
           <li class="list-inline-item">
             <a target="_blank" href="#">
