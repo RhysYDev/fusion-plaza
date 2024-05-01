@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Almendra+SC&display=swap');
 
+/* fonts */
+h1, h2, h3, h4, p {
+    font-family: 'Almendra SC', sans-serif;
+}
+
+
 
 .inline-block {
     display: inline-block;
+}
+
+.text-center {
+    text-align: center;
 }
 
 /*-- Colors --*/
@@ -85,20 +95,26 @@
     justify-content: space-between;
 }
 
-#lydia-text {
-    margin-left: 10px;
+.persons {
+   
 }
 
-#alexis-text {
-    margin-right: 5px;
+.fusionh1 {
+    display: flex;
+    text-align: center;
+}
+
+.about-h1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /*-- Images --*/
 
-#about-image {
-    width: 400px;
-    height: 400px;
-    margin-left: 10px;
+.about-image {
+    max-width: 400px;
+    max-height: 400px;
+    padding: 10px 10px;
 }
 
 .image-container {
@@ -154,46 +170,6 @@
 
 /*-- Colors --*/
 
-.ui-menu-color-home {
-    background-color: blueviolet;
-    margin: 10px;
-}
-
-.ui-menu-color-about {
-    background-color: rgb(18, 48, 218);
-    margin: 10px;
-}
-
-.ui-menu-color-recipe {
-    background-color: rgb(2, 113, 128);
-    margin: 10px;
-}
-
-.ui-menu-color-shop-advice {
-    background-color: rgb(13, 214, 90);
-    margin: 10px;
-}
-
-.ui-page-title {
-    background-color: rgb(255, 0, 0);
-    text-align: center;
-}
-
-.ui-menu-color-home {
-    color: #fff;
-}
-
-.ui-menu-color-about {
-    color: #fff;
-}
-
-.ui-menu-color-recipe {
-    color: #fff;
-}
-
-.ui-menu-color-shop-advice {
-    color: #fff;
-}
 
 /*-- Formatting --*/
 
