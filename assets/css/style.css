@@ -229,6 +229,10 @@
     
 }
 
+.proast-margin {
+    margin-bottom: 72px;
+}
+
 /*--undoing bootstrap--*/
 
 .row {
@@ -353,3 +357,8 @@ ol > li {
 }
 
 
+
+.rhp-color {
+    color: #d4d4d0;
+    font-family: 'Almendra SC', sans-serif;
+}
