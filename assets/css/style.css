@@ -232,3 +232,11 @@ img {
     height: 10vh;
     border: 1px solid red;
 }
+
+/*--Hero image --*/
+
+.hero-image {
+    background-size: cover;
+    background-position: center;
+    height: 33%;
+}
