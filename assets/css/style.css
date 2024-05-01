@@ -217,6 +217,8 @@
 
 /*-----For Recipes-----*/
 
+/* Recipe images */
+
 #chicken-noodle {
     background-image: url('../images/Chicken\ Noodle\ Stir\ Fry\ Recipe.jpg');
     height: 50vh;
@@ -224,13 +226,32 @@
     background-position: center 20%;
     padding: 0;
     margin: 0;
-    border: 1px solid black;
     left: 0;
     
 }
 
 .proast-margin {
     margin-bottom: 72px;
+}
+
+#pork-roast {
+    background-image: url(../images/Slow-cooker\ braised\ Chinese\ pork.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: 70% 40%;
+    padding: 0;
+    margin: 0;
+    left: 0;
+}
+
+#ginger-tofu {
+    background-image: url(../images/Sticky\ soy\ and\ ginger\ tofu\ with\ charred\ broccoli\ recipe.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center 40%;
+    padding: 0;
+    margin: 0;
+    left: 0;
 }
 
 /*--undoing bootstrap--*/
@@ -316,6 +337,11 @@
 
 .recipe-title-h2 {
     margin-bottom: 3vh;
+    text-align: center;
+}
+
+.recipe-title-tofu {
+    margin: 5% 0;
     text-align: center;
 }
 
