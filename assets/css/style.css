@@ -295,11 +295,6 @@
     background-color: rgba(96, 53, 64, 0.3);
 }
 
-.recipe-title {
-    padding-top: 20%;
-    font-size: 300%;
-}
-
 .container-for-info-bar {
     height: 20vh;
     width: 100vw;
@@ -341,7 +336,20 @@
 }
 
 .recipe-title-tofu {
-    margin: 5% 0;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.recipe-title-chicken {
+    padding-top: 10%;
+    font-size: 300%;
+    text-align: center;
+}
+
+.recipe-title-pork {
+    margin-bottom: 5%;
+    margin-top: 12%;
     text-align: center;
 }
 
