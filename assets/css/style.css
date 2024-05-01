@@ -25,12 +25,23 @@
     background-color: #603540;
     color: #EBE4A5;
     font-family: 'Almendra SC', sans-serif;
+    padding-top: 8px;
+    padding-right: 0;
 }
 
 .navbar a {
-    padding: 10px 100px 10px 10px;
+    padding: 10px 0px 10px 10px;
     color: #d4d4d0;
     font-size: 32px;
+}
+
+.dropdown-menu {
+    
+}
+
+.dropdown-menu-right {
+    right: 0;
+    left: auto;
 }
 
 .navbar-brand {
@@ -45,7 +56,8 @@
 
 .burger {
     right: 0;
-    padding-right: 20px;
+    padding-right: 0px;
+    margin-right: 55px;
 
 }
 
@@ -57,7 +69,7 @@
 /*-- Footer--*/
 
 .footer {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     background-color: #603540;
     color: #d4d4d0;
