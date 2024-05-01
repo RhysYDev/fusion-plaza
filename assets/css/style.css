@@ -35,10 +35,6 @@
     font-size: 32px;
 }
 
-.dropdown-menu {
-    
-}
-
 .dropdown-menu-right {
     right: 0;
     left: auto;
@@ -126,7 +122,7 @@
 }
 /*-- Hero image --*/
 .hero-image {
-    background-image url('assets/images/hero-image-chinese-food.jpg');
+    background-image: url('assets/images/hero-image-chinese-food.jpg');
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -153,7 +149,7 @@
 
 
 #hero-image-main {
-    padding 20px;
+    padding: 20px;
 }
 
 /*-- Colors --*/
