@@ -95,11 +95,20 @@
     justify-content: space-between;
 }
 
+#lydia-text {
+    margin-left: 10px;
+}
+
+#alexis-text {
+    margin-right: 5px;
+}
+
 /*-- Images --*/
 
 img {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
+    margin-left: 10px;
 }
 
 .image-container {
