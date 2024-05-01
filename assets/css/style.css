@@ -87,7 +87,7 @@
 
 /*-- Images --*/
 
-img {
+#about-image {
     width: 400px;
     height: 400px;
     margin-left: 10px;
@@ -112,15 +112,38 @@ img {
     border-color: #d4d4d0;
     border-radius: 50%;
 }
-/*-- Colors --*/
+/*-- Hero image --*/
 .hero-image {
+    background-image url('assets/images/hero-image-chinese-food.jpg');
     background-size: cover;
     background-position: center;
-}
-#hero {
-    height: 600px;
+    height: 400px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
+
+/*-- Front page --*/
+
+.container-our-mission {
+    width: 300px;
+    margin-left: 10px;
+    margin-top: 20px;
+    background-color: #363f01;
+    color: #fff;
+    font-family: 'Almendra SC', sans-serif;
+}
+
+
+
+
+
+#hero-image-main {
+    padding 20px;
+}
+
 /*-- Colors --*/
 
 .ui-menu-color-home {
