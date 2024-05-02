@@ -11,10 +11,15 @@ Fusion Dragon is a website where a number of recipes can be found to make tasty 
 - Recipe hub
 - Three recipe pages
 
-![alt text](image.png)
+![alt text](assets/images/image-aboutme-page-screenshot.png)
 
-![alt text](image-1.png)
+![alt text](assets/images/image-recipe-page-screenshot.png)
 
+![alt text](assets/images/image-stickysoy-screenshot.png)
+
+![alt text](assets/images/image-chicken-stir-fry-screenshot.pngimage.png)
+
+![alt text](assets/images/image-asian-porkroast-screenshot.png)
 # Issues: 
 - Cannot get rid of the blue border on the navbar dropdown icon when it is clicked
 cannot cause the fusion dragon logo and name to shrink. this causes the navbar to break when below 445px
