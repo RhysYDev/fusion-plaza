@@ -13,115 +13,181 @@
 </head>
 
 <body>
+  <!--------------------------------------------------------------------------- navigation bar -->
   <header>
-    <nav class="navbar sticky-top navbar-expand-lg">
-      <div class="col-12 container-fluid">
-        <a class="navbar-brand inline-block" href="index.html"><img src="assets/images/Fusion Dragon Logo.jpg"
-            alt="logo of a dragon behind a bowl of noodles" class="fusion-logo">
-          <span class="inline-block" id="logo-title">Fusion Dragon</span></a>
-        <div class="burger">
-          <ul class="navbar-nav">
-            <li class="nav-item d-none d-lg-block inline-block">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item d-none d-lg-block inline-block">
-              <a class="nav-link" href="recipe-home-page.html">Recipes</a>
-            </li>
-            <li class="nav-item d-none d-lg-block inline-block">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-           
-          </ul>
-          <div class="dropdown">
-            <button class="btn btn-secondary d-block d-lg-none" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <i class="fa-solid fa-dragon"></i>
-            </button>
-            <div class="dropdown-menu dropdown-menu-right" data-display="static" aria-labelledby="dropdownMenu2">
-              <a href="index.html" class="dropdown-item">Home</a>
-              <a href="recipe-home-page.html" class="dropdown-item">Recipes</a>
-              <a href="about.html" class="dropdown-item">About</a>
+    <nav class="navbar navbar-expand-lg box-sizing">
+      <div class="row container-fluid navbar-full">
+        <div class="col">
+          <a class="navbar-brand inline-block" href="index.html"><img src="assets/images/FusionDragonLogo.jpg"
+              alt="logo of a dragon behind a bowl of noodles" class="fusion-logo">
+            <span class="inline-block" id="logo-title">Fusion Dragon</span></a>
+        </div>
+        <div class="row">
+          <div class="col burger">
+            <ul class="navbar-nav">
+              <li class="nav-item d-none d-lg-block inline-block">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item d-none d-lg-block inline-block">
+                <a class="nav-link" href="recipe-home-page.html">Recipes</a>
+              </li>
+              <li class="nav-item d-none d-lg-block inline-block">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+
+            </ul>
+            <div class="dropdown">
+              <button class="btn btn-primary d-block d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <i class="fa-solid fa-dragon"></i>
+              </button>
             </div>
           </div>
         </div>
       </div>
     </nav>
   </header>
-
+  <!----------------------------------------------------------------- navbar dropdown card-->
+  <div class="collapse" id="collapseExample">
+    <div class="card card-body">
+      <a href="index.html" class="dropdown-item">Home</a>
+      <a href="recipe-home-page.html" class="dropdown-item">Recipes</a>
+      <a href="about.html" class="dropdown-item">About</a>
+    </div>
+  </div>
+  <!----------------------------------------------------------------- Start of page content-->
   <section class=" h-md-100 d-flex flex-column nopadding">
     <div class="row flex-grow-1">
       <div class="col-lg-4 col-12 nopadding">
         <div id="pork-roast" class="nopadding"></div>
       </div>
       <div class="col-lg-8 col-12 nopadding flex-for-nut-bar">
-        
+
         <h1 class="recipe-title-pork">Slow-cooker Asian pork roast recipe</h1>
-      
+
         <div class="container-for-info-bar">
-            <div class="row">
+          <div class="row">
             <div class="col-lg-4 col-md-4 col-12 serves-prep">
-            <span><i class="fa-regular fa-clock"></i></span><span> Prep: 10min</span>
-            <p>Cook: 4-8 hours</p>
-            <span><i class="fa-regular fa-snowflake"></i></span><span>    Freezable</span>
+              <span><i class="fa-regular fa-clock"></i></span><span> Prep: 10min</span>
+              <p>Cook: 4-8 hours</p>
+              <span><i class="fa-regular fa-snowflake"></i></span><span> Freezable</span>
             </div>
-          <div class="col-lg-8 col-md-8 col-12 nopadding displaynone">
-            <div class="row container-for-nut-bar nopadding">
-              <div class="col-lg col-md col-3 nut-container nopadding"><div class="box-nut"><p class="nopadding">Energy <br>478kcal <br>24%</p></div></div>
-              <div class="col-lg col-md col-3 nut-container nopadding"><div class="box-nut"><p class="nopadding">Fat <br>25g <br>35%</p></div></div>
-              <div class="col-lg col-md col-3 nut-container nopadding"><div class="box-nut"><p class="nopadding">Saturates <br>5g <br>25%</p></div></div>
-              <div class="col-lg col-md col-3 nut-container nopadding"><div class="box-nut"><p class="nopadding">Sugars <br>11g <br>12%</p></div></div>
-              <div class="col-lg col-md col-3 nut-container nopadding"><div class="box-nut"><p class="nopadding">Salt <br>2.2g <br>37%</p></div></div>
+            <div class="col-lg-8 col-md-8 col-12 nopadding displaynone">
+              <div class="row container-for-nut-bar nopadding">
+                <div class="col-lg col-md col-3 nut-container nopadding">
+                  <div class="box-nut">
+                    <p class="nopadding">Energy <br>294kcal <br>15%</p>
+                  </div>
+                </div>
+                <div class="col-lg col-md col-3 nut-container nopadding">
+                  <div class="box-nut">
+                    <p class="nopadding">Fat <br>9g <br>13%</p>
+                  </div>
+                </div>
+                <div class="col-lg col-md col-3 nut-container nopadding">
+                  <div class="box-nut">
+                    <p class="nopadding">Saturates <br>3g <br>13%</p>
+                  </div>
+                </div>
+                <div class="col-lg col-md col-3 nut-container nopadding">
+                  <div class="box-nut">
+                    <p class="nopadding">Sugars <br>10g <br>11%</p>
+                  </div>
+                </div>
+                <div class="col-lg col-md col-3 nut-container nopadding">
+                  <div class="box-nut">
+                    <p class="nopadding">Salt <br>1.7g <br>28%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        </div>
         </div>
       </div>
     </div>
 
     <div class="row sm-nut-container">
-              <div class="col nut-container nopadding"><div class="box-nut"><p>Energy <br>478kcal <br>24%</p></div></div>
-              <div class="col nut-container nopadding"><div class="box-nut"><p>Fat <br>25g <br>35%</p></div></div>
-              <div class="col nut-container nopadding"><div class="box-nut"><p>Saturates <br>5g <br>25%</p></div></div>
-              <div class="col nut-container nopadding"><div class="box-nut"><p>Sugars <br>11g <br>12%</p></div></div>
-              <div class="col nut-container nopadding"><div class="box-nut"><p>Salt <br>2.2g <br>37%</p></div></div>
+      <div class="col nut-container nopadding">
+        <div class="box-nut">
+          <p>Energy <br>294kcal <br>15%</p>
+        </div>
+      </div>
+      <div class="col nut-container nopadding">
+        <div class="box-nut">
+          <p>Fat <br>9g <br>13%</p>
+        </div>
+      </div>
+      <div class="col nut-container nopadding">
+        <div class="box-nut">
+          <p>Saturates <br>5g <br>25%</p>
+        </div>
+      </div>
+      <div class="col nut-container nopadding">
+        <div class="box-nut">
+          <p>Sugars <br>10g <br>11%</p>
+        </div>
+      </div>
+      <div class="col nut-container nopadding">
+        <div class="box-nut">
+          <p>Salt <br>1.7g <br>28%</p>
+        </div>
+      </div>
     </div>
 
-    
-    <div class="row flex-grow-1 nopadding">
+
+    <div class="row flex-grow-1 nopadding" style="margin-bottom: 72px;">
       <div class="col-lg-4 col-12">
         <h2 class="recipe-title-h2 add-padding-top">Ingredients</h2>
-        <ul> 
-          <li class="nobullet">2 nests dried egg noodles</li><hr>
-          <li class="nobullet">1 tbsp sesame oil</li><hr>
-          <li class="nobullet">3 skinless boneless chicken thighs, cut into strips</li><hr>
-          <li class="nobullet">3 tbsp soy sauce</li><hr>
-          <li class="nobullet">2 tbsp honey</li><hr>
-          <li class="nobullet">1 tbsp vegetable oil</li><hr>
-          <li class="nobullet">1 garlic clove, peeled and finely sliced</li><hr>
-          <li class="nobullet">3cm piece ginger, peeled and cut into matchsticks</li><hr>
-          <li class="nobullet">100g Tenderstem broccoli, halved and cut lengthways</li><hr>
-          <li class="nobullet">100g baby corn, thickly sliced diagonally</li><hr>
-          <li class="nobullet">75g chestnut mushrooms, sliced</li><hr>
-          <li class="nobullet">1 yellow pepper, deseeded and cut into strips</li><hr>
-          <li class="nobullet">50g raw cashew nuts, toasted</li><hr>
-          <li class="nobullet">150g pot fresh edamame beans</li><hr>
+        <ul>
+          <li class="nobullet"></li>
+          <hr>
+          <li class="nobullet">1kg pork shoulder, cut into 5cm pieces</li>
+          <hr>
+          <li class="nobullet">4 tbsp soy sauce</li>
+          <hr>
+          <li class="nobullet">1 tbsp vegetable oil</li>
+          <hr>
+          <li class="nobullet">2 inch piece ginger shredded into matchsticks</li>
+          <hr>
+          <li class="nobullet">2 cloves garlic, sliced</li>
+          <hr>
+          <li class="nobullet">2 red chillies, sliced</li>
+          <hr>
+          <li class="nobullet">4 tbsp red wine vinegar</li>
+          <hr>
+          <li class="nobullet">200ml sherry</li>
+          <hr>
+          <li class="nobullet">50g soft brown sugar</li>
+          <hr>
+          <li class="nobullet">150ml water</li>
+          <hr>
         </ul>
 
       </div>
-      <div class="col-lg-8 col-12 nopadding">
+      <div class="col-lg-8 col-12 nopadding" style="margin-bottom: 72px;">
         <h2 class="recipe-title-h2">Method</h2>
-          <ol>
-            <li class="listmargin">Boil the noodles, following pack instructions, then drain and set aside.</li><hr>
-            <li class="listmargin">Meanwhile, heat the sesame oil in a wok or large frying pan over a high heat until very hot. Add the chicken and stir-fry for 6-7 mins until golden and crispy. Add the soy sauce and honey and heat for 30 secs until bubbling and the chicken is coated. Tip the contents of the pan into a bowl and set aside. Wipe out the pan with kitchen paper.</li><hr>
-            <li class="listmargin">Add the vegetable oil to the pan, then add the garlic and ginger and cook for 30 secs. Add the broccoli, baby corn, mushrooms and pepper, then stir-fry for 3-4 mins, continually tossing the mixture to help it cook evenly. Add the cashews and edamame beans and toss for 1 min.</li><hr>
-            <li class="listmargin">Return the chicken to the pan, stir to combine and serve over the noodles.</li><hr>
-          </ol>
+        <ol>
+          <li class="listmargin">Marinate the meat with 1 tbsp of the soy and set aside. In a frying pan, heat the oil.
+            Sauté the garlic, ginger and half the chili for 5 minutes.</li>
+          <hr>
+          <li class="listmargin">Add the sherry, vinegar, remaining soy sauce, sugar, and water and heat until the sugar
+            is dissolved. Place the meat in the slow-cooker, pour over the sauce, place the lid on and cook for 4 hours
+            on high or 8 hours on slow</li>
+          <hr>
+          <li class="listmargin">Skim off any excess oil. Remove the meat and strain the sauce through a fine mesh
+            sieve.</li>
+          <hr>
+          <li class="listmargin">Serve the meat and juice with rice noodles, chopped spring onions, red chilis, fresh
+            coriander and toasted sesame seeds.</li>
+          <hr>
+        </ol>
       </div>
     </div>
   </section>
-
+  <!------------------------------------------------------------------------------------------ Footer -->
   <footer class="footer container-fluid footer-color sticky-bottom" id="footer">
     <div id="footer-details" class="row">
-       <div class="col-sm-12">
+      <div class="col-sm-12">
         <h5 class="uppercase general-sub">Socials</h5>
         <ul class="list-inline social-links">
           <li class="list-inline-item">
@@ -172,6 +238,7 @@
     </div>
 
   </footer>
+  <!-------------------------------------------------------------------------------------- js scripts -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
