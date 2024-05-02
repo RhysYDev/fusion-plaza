@@ -204,21 +204,29 @@ body {
 
 /*-- Front page --*/
 
-.container-our-mission {
-    width: 300px;
-    margin-left: 10px;
-    margin-top: 20px;
-    background-color: #363f01;
-    color: #fff;
-    font-family: 'Almendra SC', sans-serif;
+#hero-image {
+    background-image: url('../images/hero-image-chinese-food.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
 }
 
-
-
-
-
-#hero-image-main {
-    padding: 20px;
+@media (min-width: 576px){
+    #hero-image {
+        background-image: url('../images/hero-image-chinese-food.jpg');
+        background-size: 210%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        margin-top: -2vw; 
+} 
+}
+.container-our-mission {
+    position: absolute;
+    top: 40%;
+    width: 66%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+    margin-left: 10px;
 }
 
 /*-- Colors --*/
