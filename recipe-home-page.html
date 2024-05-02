@@ -13,6 +13,7 @@
 </head>
 
 <body>
+  <!--------------------------------------------------------------------------- navigation bar -->
   <header>
     <nav class="navbar navbar-expand-lg box-sizing">
       <div class="row container-fluid navbar-full">
@@ -46,7 +47,7 @@
       </div>
     </nav>
   </header>
-
+  <!----------------------------------------------------------------- navbar dropdown card-->
   <div class="collapse" id="collapseExample">
     <div class="card card-body">
       <a href="index.html" class="dropdown-item">Home</a>
@@ -54,33 +55,35 @@
       <a href="about.html" class="dropdown-item">About</a>
     </div>
   </div>
-
-  <h1 class="text-center">Chinese Recipes</h1>
-  <div class="row">
-    <div class="col-md-4">
-      <h3 class="text-center recipe-titles">Sticky soy and ginger tofu with charred broccoli</h3>
-      <a href="ginger-tofu.html"><img src="assets/images/Sticky soy and ginger tofu with charred broccoli recipe.jpg"
-          alt="Recipe 1" class="img-fluid"></a>
-      <p class="text-center">It's hard to believe this dish is ready in just 20 minutes! Packed with sweet, sour and
-        salty flavours, this Chinese-inspired stir-fry makes a perfect fast and fresh fakeaway.</p>
+  <!----------------------------------------------------------------- Start of page content-->
+  <section class=" h-md-100 d-flex flex-column nopadding">
+    <h1 class="text-center">Chinese Recipes</h1>
+    <div class="row">
+      <div class="col-md-4">
+        <h3 class="text-center recipe-titles">Sticky soy and ginger tofu with charred broccoli</h3>
+        <a href="ginger-tofu.html"><img src="assets/images/Sticky soy and ginger tofu with charred broccoli recipe.jpg"
+            alt="Recipe 1" class="img-fluid"></a>
+        <p class="text-center">It's hard to believe this dish is ready in just 20 minutes! Packed with sweet, sour and
+          salty flavours, this Chinese-inspired stir-fry makes a perfect fast and fresh fakeaway.</p>
+      </div>
+      <div class="col-md-4">
+        <h3 class="text-center recipe-titles">Chicken noodle stir-fry recipe</h3>
+        <a href="chicken-noodle.html"><img src="assets/images/Chicken Noodle Stir Fry Recipe.jpg" alt="Recipe 2"
+            class="img-fluid"></a>
+        <p class="text-center">You can't go wrong with a classic chicken stir-fry recipe. This simple recipe combines
+          sticky soy sauce glazed chicken thighs with plenty of veg, toasted cashews and noodles </p>
+      </div>
+      <div class="col-md-4">
+        <h3 class="text-center recipe-titles">Slow-cooker Asian pork roast recipe</h3>
+        <a href="pork-roast.html"><img src="assets/images/Slow-cooker braised Chinese pork.jpg" alt="Recipe 3"
+            class="img-fluid"></a>
+        <p class="text-center">A gorgeous slow-cooker recipe that is so simple, yet so tasty. Cokking ork this way means
+          that it is beutifully tender when it comes to serving, while the strong flavors have had time to mild
+          together.</p>
+      </div>
     </div>
-    <div class="col-md-4">
-      <h3 class="text-center recipe-titles">Chicken noodle stir-fry recipe</h3>
-      <a href="chicken-noodle.html"><img src="assets/images/Chicken Noodle Stir Fry Recipe.jpg" alt="Recipe 2"
-          class="img-fluid"></a>
-      <p class="text-center">You can't go wrong with a classic chicken stir-fry recipe. This simple recipe combines
-        sticky soy sauce glazed chicken thighs with plenty of veg, toasted cashews and noodles </p>
-    </div>
-    <div class="col-md-4">
-      <h3 class="text-center recipe-titles">Slow-cooker Asian pork roast recipe</h3>
-      <a href="pork-roast.html"><img src="assets/images/Slow-cooker braised Chinese pork.jpg" alt="Recipe 3"
-          class="img-fluid"></a>
-      <p class="text-center">A gorgeous slow-cooker recipe that is so simple, yet so tasty. Cokking ork this way means
-        that it is beutifully tender when it comes to serving, while the strong flavors have had time to mild
-        together.</p>
-    </div>
-  </div>
-
+  </section>
+  <!------------------------------------------------------------------------------------------ Footer -->
   <footer class="footer container-fluid footer-color sticky-bottom" id="footer">
     <div id="footer-details" class="row">
       <div class="col-sm-12">
@@ -134,6 +137,7 @@
     </div>
 
   </footer>
+  <!-------------------------------------------------------------------------------------- js scripts -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
