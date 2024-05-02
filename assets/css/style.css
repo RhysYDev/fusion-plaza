@@ -243,6 +243,8 @@ body {
 
 /*-----For Recipes-----*/
 
+/* Recipe images */
+
 #chicken-noodle {
     background-image: url('../images/Chicken\ Noodle\ Stir\ Fry\ Recipe.jpg');
     height: 50vh;
@@ -250,13 +252,32 @@ body {
     background-position: center 20%;
     padding: 0;
     margin: 0;
-    border: 1px solid black;
     left: 0;
     
 }
 
 .proast-margin {
     margin-bottom: 72px;
+}
+
+#pork-roast {
+    background-image: url(../images/Slow-cooker\ braised\ Chinese\ pork.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: 70% 40%;
+    padding: 0;
+    margin: 0;
+    left: 0;
+}
+
+#ginger-tofu {
+    background-image: url(../images/Sticky\ soy\ and\ ginger\ tofu\ with\ charred\ broccoli\ recipe.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center 40%;
+    padding: 0;
+    margin: 0;
+    left: 0;
 }
 
 /*--undoing bootstrap--*/
@@ -304,11 +325,6 @@ body {
     background-color: rgba(96, 53, 64, 0.3);
 }
 
-.recipe-title {
-    padding-top: 20%;
-    font-size: 300%;
-}
-
 .container-for-info-bar {
     height: 20vh;
     width: 100vw;
@@ -340,7 +356,7 @@ body {
     
 }
 
-ul > li {
+.nobullet {
     list-style-type: none;
 }
 
@@ -349,7 +365,25 @@ ul > li {
     text-align: center;
 }
 
-ol > li {
+.recipe-title-tofu {
+    margin-bottom: 5%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.recipe-title-chicken {
+    padding-top: 10%;
+    font-size: 300%;
+    text-align: center;
+}
+
+.recipe-title-pork {
+    margin-bottom: 5%;
+    margin-top: 12%;
+    text-align: center;
+}
+
+.listmargin {
     margin: 4vh;
 }
 
