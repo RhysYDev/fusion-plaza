@@ -84,7 +84,31 @@ rather than flexbox will be useful in future.
 
 # Validation
 
-![alt text](css-validation-screenshot.png)
+![alt text](assets/images/css-validation-screenshot.png)
+
+- Css validation
+
+![alt text](assets/images/html-validation-1.png)
+
+![alt text](assets/images/html-validation-2.png)
+
+![alt text](assets/images/html-validation-3.png)
+
+![alt text](assets/images/html-validation-4.png)
+
+![alt text](assets/images/html-validation-5.png)
+
+![alt text](assets/images/html-validation-6.png)
+
+
+
+- HTML Validation
+
+
+
+
+
+
 
 
 
