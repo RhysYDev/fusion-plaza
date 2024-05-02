@@ -1,9 +1,11 @@
 fonts from googlefonts
 
-#issues: 
-navbar overflows when between 768px to 991px
-navbar breaks below 433px
+# issues: 
+cannot get rid of the blue border on the navbar dropdown icon when it is clicked
+cannot cause the fusion dragon logo and name to shrink. this causes the navbar to break when below 445px
+menu button doesnt change border back to original until clicked off of on mobile version
 
-icons from font awesome
+# icons
+From font awesome
 
-ai images from microsofts ai
+Chef images are ai-generated from microsofts co-pilot image generator
