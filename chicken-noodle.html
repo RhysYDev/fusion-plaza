@@ -1,121 +1,197 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
-    <script src="https://kit.fontawesome.com/18e36ec3db.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
-    <link rel="stylesheet" href="assets/css/style.css">
-    <title>Fusion Dragon</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+  <script src="https://kit.fontawesome.com/18e36ec3db.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+    type="text/css" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Fusion Dragon</title>
 </head>
+
 <body>
+
   <header>
-    <nav class="navbar sticky-top navbar-expand-lg">
-      <div class="col-12 container-fluid">
-        <a class="navbar-brand inline-block" href="index.html"><img src="assets/images/Fusion Dragon Logo.jpg"
-            alt="logo of a dragon behind a bowl of noodles" class="fusion-logo">
-          <span class="inline-block" id="logo-title">Fusion Dragon</span></a>
-        <div class="burger">
-          <ul class="navbar-nav">
-            <li class="nav-item d-none d-lg-block inline-block">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item d-none d-lg-block inline-block">
-              <a class="nav-link" href="recipe-home-page.html">Recipes</a>
-            </li>
-            <li class="nav-item d-none d-lg-block inline-block">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-           
-          </ul>
-          <div class="dropdown">
-            <button class="btn btn-secondary d-block d-lg-none" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <i class="fa-solid fa-dragon"></i>
-            </button>
-            <div class="dropdown-menu dropdown-menu-right" data-display="static" aria-labelledby="dropdownMenu2">
-              <a href="index.html" class="dropdown-item">Home</a>
-              <a href="recipe-home-page.html" class="dropdown-item">Recipes</a>
-              <a href="about.html" class="dropdown-item">About</a>
+    <nav class="navbar navbar-expand-lg box-sizing">
+      <div class="row container-fluid navbar-full">
+        <div class="col">
+          <a class="navbar-brand inline-block" href="index.html"><img src="assets/images/Fusion Dragon Logo.jpg"
+              alt="logo of a dragon behind a bowl of noodles" class="fusion-logo">
+            <span class="inline-block" id="logo-title">Fusion Dragon</span></a>
+        </div>
+        <div class="row">
+          <div class="col burger">
+            <ul class="navbar-nav">
+              <li class="nav-item d-none d-lg-block inline-block">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item d-none d-lg-block inline-block">
+                <a class="nav-link" href="recipe-home-page.html">Recipes</a>
+              </li>
+              <li class="nav-item d-none d-lg-block inline-block">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+
+            </ul>
+            <div class="dropdown">
+              <button class="btn btn-primary d-block d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <i class="fa-solid fa-dragon"></i>
+              </button>
             </div>
           </div>
         </div>
       </div>
     </nav>
   </header>
-    
-    <section class=" h-md-100 d-flex flex-column nopadding">
-      <div class="row flex-grow-1">
-        <div class="col-lg-4 col-12 nopadding">
-          <div id="chicken-noodle" class="nopadding"></div>
-        </div>
-        <div class="col-lg-8 col-12 nopadding flex-for-nut-bar">
-          
-          <h1 class="recipe-title-chicken">Chicken and Noodle Stir Fry</h1>
-        
-          <div class="container-for-info-bar">
-              <div class="row">
-              <div class="col-lg-4 col-md-4 col-12 serves-prep">
+
+  <div class="collapse" id="collapseExample">
+    <div class="card card-body">
+      <a href="index.html" class="dropdown-item">Home</a>
+      <a href="recipe-home-page.html" class="dropdown-item">Recipes</a>
+      <a href="about.html" class="dropdown-item">About</a>
+    </div>
+  </div>
+
+  <section class=" h-md-100 d-flex flex-column nopadding">
+    <div class="row flex-grow-1">
+      <div class="col-lg-4 col-12 nopadding">
+        <div id="chicken-noodle" class="nopadding"></div>
+      </div>
+      <div class="col-lg-8 col-12 nopadding flex-for-nut-bar">
+
+        <h1 class="recipe-title-chicken">Chicken and Noodle Stir Fry</h1>
+
+        <div class="container-for-info-bar">
+          <div class="row">
+            <div class="col-lg-4 col-md-4 col-12 serves-prep">
               <span><i class="fa-regular fa-clock"></i></span><span> Prep: 15min</span>
               <p>Cook: 15min</p>
-              <span><i class="fa-solid fa-person"></i></span><span>    Serves 4</span>
-              </div>
+              <span><i class="fa-solid fa-person"></i></span><span> Serves 4</span>
+            </div>
             <div class="col-lg-8 col-md-8 col-12 nopadding displaynone">
               <div class="row container-for-nut-bar nopadding">
-                <div class="col-lg col-md col-3 nut-container nopadding"><div class="box-nut"><p class="nopadding">Energy <br>478kcal <br>24%</p></div></div>
-                <div class="col-lg col-md col-3 nut-container nopadding"><div class="box-nut"><p class="nopadding">Fat <br>25g <br>35%</p></div></div>
-                <div class="col-lg col-md col-3 nut-container nopadding"><div class="box-nut"><p class="nopadding">Saturates <br>5g <br>25%</p></div></div>
-                <div class="col-lg col-md col-3 nut-container nopadding"><div class="box-nut"><p class="nopadding">Sugars <br>11g <br>12%</p></div></div>
-                <div class="col-lg col-md col-3 nut-container nopadding"><div class="box-nut"><p class="nopadding">Salt <br>2.2g <br>37%</p></div></div>
+                <div class="col-lg col-md col-3 nut-container nopadding">
+                  <div class="box-nut">
+                    <p class="nopadding">Energy <br>478kcal <br>24%</p>
+                  </div>
+                </div>
+                <div class="col-lg col-md col-3 nut-container nopadding">
+                  <div class="box-nut">
+                    <p class="nopadding">Fat <br>25g <br>35%</p>
+                  </div>
+                </div>
+                <div class="col-lg col-md col-3 nut-container nopadding">
+                  <div class="box-nut">
+                    <p class="nopadding">Saturates <br>5g <br>25%</p>
+                  </div>
+                </div>
+                <div class="col-lg col-md col-3 nut-container nopadding">
+                  <div class="box-nut">
+                    <p class="nopadding">Sugars <br>11g <br>12%</p>
+                  </div>
+                </div>
+                <div class="col-lg col-md col-3 nut-container nopadding">
+                  <div class="box-nut">
+                    <p class="nopadding">Salt <br>2.2g <br>37%</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          </div>
-          </div>
         </div>
       </div>
+    </div>
 
-      <div class="row sm-nut-container">
-                <div class="col nut-container nopadding"><div class="box-nut"><p>Energy <br>478kcal <br>24%</p></div></div>
-                <div class="col nut-container nopadding"><div class="box-nut"><p>Fat <br>25g <br>35%</p></div></div>
-                <div class="col nut-container nopadding"><div class="box-nut"><p>Saturates <br>5g <br>25%</p></div></div>
-                <div class="col nut-container nopadding"><div class="box-nut"><p>Sugars <br>11g <br>12%</p></div></div>
-                <div class="col nut-container nopadding"><div class="box-nut"><p>Salt <br>2.2g <br>37%</p></div></div>
-      </div>
-
-      
-      <div class="row flex-grow-1 nopadding">
-        <div class="col-lg-4 col-12">
-          <h2 class="recipe-title-h2 add-padding-top">Ingredients</h2>
-          <ul> 
-            <li class="nobullet">2 nests dried egg noodles</li><hr>
-            <li class="nobullet">1 tbsp sesame oil</li><hr>
-            <li class="nobullet">3 skinless boneless chicken thighs, cut into strips</li><hr>
-            <li class="nobullet">3 tbsp soy sauce</li><hr>
-            <li class="nobullet">2 tbsp honey</li><hr>
-            <li class="nobullet">1 tbsp vegetable oil</li><hr>
-            <li class="nobullet">1 garlic clove, peeled and finely sliced</li><hr>
-            <li class="nobullet">3cm piece ginger, peeled and cut into matchsticks</li><hr>
-            <li class="nobullet">100g Tenderstem broccoli, halved and cut lengthways</li><hr>
-            <li class="nobullet">100g baby corn, thickly sliced diagonally</li><hr>
-            <li class="nobullet">75g chestnut mushrooms, sliced</li><hr>
-            <li class="nobullet">1 yellow pepper, deseeded and cut into strips</li><hr>
-            <li class="nobullet">50g raw cashew nuts, toasted</li><hr>
-            <li class="nobullet">150g pot fresh edamame beans</li><hr>
-          </ul>
-
-        </div>
-        <div class="col-lg-8 col-12 nopadding">
-          <h2 class="recipe-title-h2">Method</h2>
-            <ol>
-              <li class="listmargin">Boil the noodles, following pack instructions, then drain and set aside.</li><hr>
-              <li class="listmargin">Meanwhile, heat the sesame oil in a wok or large frying pan over a high heat until very hot. Add the chicken and stir-fry for 6-7 mins until golden and crispy. Add the soy sauce and honey and heat for 30 secs until bubbling and the chicken is coated. Tip the contents of the pan into a bowl and set aside. Wipe out the pan with kitchen paper.</li><hr>
-              <li class="listmargin">Add the vegetable oil to the pan, then add the garlic and ginger and cook for 30 secs. Add the broccoli, baby corn, mushrooms and pepper, then stir-fry for 3-4 mins, continually tossing the mixture to help it cook evenly. Add the cashews and edamame beans and toss for 1 min.</li><hr>
-              <li class="listmargin">Return the chicken to the pan, stir to combine and serve over the noodles.</li><hr>
-            </ol>
+    <div class="row sm-nut-container">
+      <div class="col nut-container nopadding">
+        <div class="box-nut">
+          <p>Energy <br>478kcal <br>24%</p>
         </div>
       </div>
-    </section>
+      <div class="col nut-container nopadding">
+        <div class="box-nut">
+          <p>Fat <br>25g <br>35%</p>
+        </div>
+      </div>
+      <div class="col nut-container nopadding">
+        <div class="box-nut">
+          <p>Saturates <br>5g <br>25%</p>
+        </div>
+      </div>
+      <div class="col nut-container nopadding">
+        <div class="box-nut">
+          <p>Sugars <br>11g <br>12%</p>
+        </div>
+      </div>
+      <div class="col nut-container nopadding">
+        <div class="box-nut">
+          <p>Salt <br>2.2g <br>37%</p>
+        </div>
+      </div>
+    </div>
 
-    <script src="https://kit.fontawesome.com/afced6604b.js" crossorigin="anonymous"></script>
+
+    <div class="row flex-grow-1 nopadding">
+      <div class="col-lg-4 col-12">
+        <h2 class="recipe-title-h2 add-padding-top">Ingredients</h2>
+        <ul>
+          <li class="nobullet">2 nests dried egg noodles</li>
+          <hr>
+          <li class="nobullet">1 tbsp sesame oil</li>
+          <hr>
+          <li class="nobullet">3 skinless boneless chicken thighs, cut into strips</li>
+          <hr>
+          <li class="nobullet">3 tbsp soy sauce</li>
+          <hr>
+          <li class="nobullet">2 tbsp honey</li>
+          <hr>
+          <li class="nobullet">1 tbsp vegetable oil</li>
+          <hr>
+          <li class="nobullet">1 garlic clove, peeled and finely sliced</li>
+          <hr>
+          <li class="nobullet">3cm piece ginger, peeled and cut into matchsticks</li>
+          <hr>
+          <li class="nobullet">100g Tenderstem broccoli, halved and cut lengthways</li>
+          <hr>
+          <li class="nobullet">100g baby corn, thickly sliced diagonally</li>
+          <hr>
+          <li class="nobullet">75g chestnut mushrooms, sliced</li>
+          <hr>
+          <li class="nobullet">1 yellow pepper, deseeded and cut into strips</li>
+          <hr>
+          <li class="nobullet">50g raw cashew nuts, toasted</li>
+          <hr>
+          <li class="nobullet">150g pot fresh edamame beans</li>
+          <hr>
+        </ul>
+
+      </div>
+      <div class="col-lg-8 col-12 nopadding">
+        <h2 class="recipe-title-h2">Method</h2>
+        <ol>
+          <li class="listmargin">Boil the noodles, following pack instructions, then drain and set aside.</li>
+          <hr>
+          <li class="listmargin">Meanwhile, heat the sesame oil in a wok or large frying pan over a high heat until very
+            hot. Add the chicken and stir-fry for 6-7 mins until golden and crispy. Add the soy sauce and honey and heat
+            for 30 secs until bubbling and the chicken is coated. Tip the contents of the pan into a bowl and set aside.
+            Wipe out the pan with kitchen paper.</li>
+          <hr>
+          <li class="listmargin">Add the vegetable oil to the pan, then add the garlic and ginger and cook for 30 secs.
+            Add the broccoli, baby corn, mushrooms and pepper, then stir-fry for 3-4 mins, continually tossing the
+            mixture to help it cook evenly. Add the cashews and edamame beans and toss for 1 min.</li>
+          <hr>
+          <li class="listmargin">Return the chicken to the pan, stir to combine and serve over the noodles.</li>
+          <hr>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://kit.fontawesome.com/afced6604b.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

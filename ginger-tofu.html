@@ -14,112 +14,189 @@
 
 <body>
   <header>
-    <nav class="navbar sticky-top navbar-expand-lg">
-      <div class="col-12 container-fluid">
-        <a class="navbar-brand inline-block" href="index.html"><img src="assets/images/Fusion Dragon Logo.jpg"
-            alt="logo of a dragon behind a bowl of noodles" class="fusion-logo">
-          <span class="inline-block" id="logo-title">Fusion Dragon</span></a>
-        <div class="burger">
-          <ul class="navbar-nav">
-            <li class="nav-item d-none d-lg-block inline-block">
-              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-            </li>
-            <li class="nav-item d-none d-lg-block inline-block">
-              <a class="nav-link" href="recipe-home-page.html">Recipes</a>
-            </li>
-            <li class="nav-item d-none d-lg-block inline-block">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-           
-          </ul>
-          <div class="dropdown">
-            <button class="btn btn-secondary d-block d-lg-none" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <i class="fa-solid fa-dragon"></i>
-            </button>
-            <div class="dropdown-menu dropdown-menu-right" data-display="static" aria-labelledby="dropdownMenu2">
-              <a href="index.html" class="dropdown-item">Home</a>
-              <a href="recipe-home-page.html" class="dropdown-item">Recipes</a>
-              <a href="about.html" class="dropdown-item">About</a>
+    <nav class="navbar navbar-expand-lg box-sizing">
+      <div class="row container-fluid navbar-full">
+        <div class="col">
+          <a class="navbar-brand inline-block" href="index.html"><img src="assets/images/Fusion Dragon Logo.jpg"
+              alt="logo of a dragon behind a bowl of noodles" class="fusion-logo">
+            <span class="inline-block" id="logo-title">Fusion Dragon</span></a>
+        </div>
+        <div class="row">
+          <div class="col burger">
+            <ul class="navbar-nav">
+              <li class="nav-item d-none d-lg-block inline-block">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item d-none d-lg-block inline-block">
+                <a class="nav-link" href="recipe-home-page.html">Recipes</a>
+              </li>
+              <li class="nav-item d-none d-lg-block inline-block">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+
+            </ul>
+            <div class="dropdown">
+              <button class="btn btn-primary d-block d-lg-none" type="button" data-toggle="collapse"
+                data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                <i class="fa-solid fa-dragon"></i>
+              </button>
             </div>
           </div>
         </div>
       </div>
     </nav>
   </header>
-  
+
+  <div class="collapse" id="collapseExample">
+    <div class="card card-body">
+      <a href="index.html" class="dropdown-item">Home</a>
+      <a href="recipe-home-page.html" class="dropdown-item">Recipes</a>
+      <a href="about.html" class="dropdown-item">About</a>
+    </div>
+  </div>
+
   <section class=" h-md-100 d-flex flex-column nopadding">
     <div class="row flex-grow-1">
       <div class="col-lg-4 col-12 nopadding">
         <div id="ginger-tofu" class="nopadding"></div>
       </div>
       <div class="col-lg-8 col-12 nopadding flex-for-nut-bar">
-        
+
         <h1 class="recipe-title-tofu">Sticky soy and ginger tofu with broccoli</h1>
-      
+
         <div class="container-for-info-bar">
-            <div class="row">
+          <div class="row">
             <div class="col-lg-4 col-md-4 col-12 serves-prep">
-            <span><i class="fa-regular fa-clock"></i></span><span> Prep: 20min</span><br><br>
-            <span><i class="fa-solid fa-v"></i></span><span>    Vegan</span>
+              <span><i class="fa-regular fa-clock"></i></span><span> Prep: 20min</span><br><br>
+              <span><i class="fa-solid fa-v"></i></span><span> Vegan</span>
             </div>
-          <div class="col-lg-8 col-md-8 col-12 nopadding displaynone">
-            <div class="row container-for-nut-bar nopadding">
-              <div class="col-lg col-md col-3 nut-container nopadding"><div class="box-nut"><p class="nopadding">Energy <br>613kcal <br>31%</p></div></div>
-              <div class="col-lg col-md col-3 nut-container nopadding"><div class="box-nut"><p class="nopadding">Fat<br>27g <br>39%</p></p></div></div>
-              <div class="col-lg col-md col-3 nut-container nopadding"><div class="box-nut"><p class="nopadding">Saturates <br>5g <br>23%</p></div></div>
-              <div class="col-lg col-md col-3 nut-container nopadding"><div class="box-nut"><p class="nopadding">Sugars <br>18g <br>20%</p></div></div>
-              <div class="col-lg col-md col-3 nut-container nopadding"><div class="box-nut"><p class="nopadding">Salt <br>1.8g <br>29%</p></div></div>
+            <div class="col-lg-8 col-md-8 col-12 nopadding displaynone">
+              <div class="row container-for-nut-bar nopadding">
+                <div class="col-lg col-md col-3 nut-container nopadding">
+                  <div class="box-nut">
+                    <p class="nopadding">Energy <br>613kcal <br>31%</p>
+                  </div>
+                </div>
+                <div class="col-lg col-md col-3 nut-container nopadding">
+                  <div class="box-nut">
+                    <p class="nopadding">Fat<br>27g <br>39%</p>
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg col-md col-3 nut-container nopadding">
+                  <div class="box-nut">
+                    <p class="nopadding">Saturates <br>5g <br>23%</p>
+                  </div>
+                </div>
+                <div class="col-lg col-md col-3 nut-container nopadding">
+                  <div class="box-nut">
+                    <p class="nopadding">Sugars <br>18g <br>20%</p>
+                  </div>
+                </div>
+                <div class="col-lg col-md col-3 nut-container nopadding">
+                  <div class="box-nut">
+                    <p class="nopadding">Salt <br>1.8g <br>29%</p>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        </div>
         </div>
       </div>
     </div>
 
     <div class="row sm-nut-container">
-              <div class="col nut-container nopadding"><div class="box-nut"><p>Energy <br>613kcal <br>31%</p></div></div>
-              <div class="col nut-container nopadding"><div class="box-nut"><p>Fat<br>27g<br>39%</p></div></div>
-              <div class="col nut-container nopadding"><div class="box-nut"><p>Saturates <br>5g <br>23%</p></div></div>
-              <div class="col nut-container nopadding"><div class="box-nut"><p>Sugars <br>18g <br>20%</p></div></div>
-              <div class="col nut-container nopadding"><div class="box-nut"><p>Salt <br>1.8g <br>29%</p></div></div>
+      <div class="col nut-container nopadding">
+        <div class="box-nut">
+          <p>Energy <br>613kcal <br>31%</p>
+        </div>
+      </div>
+      <div class="col nut-container nopadding">
+        <div class="box-nut">
+          <p>Fat<br>27g<br>39%</p>
+        </div>
+      </div>
+      <div class="col nut-container nopadding">
+        <div class="box-nut">
+          <p>Saturates <br>5g <br>23%</p>
+        </div>
+      </div>
+      <div class="col nut-container nopadding">
+        <div class="box-nut">
+          <p>Sugars <br>18g <br>20%</p>
+        </div>
+      </div>
+      <div class="col nut-container nopadding">
+        <div class="box-nut">
+          <p>Salt <br>1.8g <br>29%</p>
+        </div>
+      </div>
     </div>
 
-    
+
     <div class="row flex-grow-1 nopadding">
       <div class="col-lg-4 col-12">
         <h2 class="recipe-title-h2 add-padding-top">Ingredients</h2>
-        <ul> 
-          <li class="nobullet">200g Plant Chef organic firm tofu</li><hr>
-          <li class="nobullet">3 tbsp hoisin dipping sauce</li><hr>
-          <li class="nobullet">2 tbsp reduced-salt soy sauce</li><hr>
-          <li class="nobullet">1 tbsp maple syrup</li><hr>
-          <li class="nobullet">3cm piece fresh ginger, peeled and grated</li><hr>
-          <li class="nobullet">375g head of broccoli, cut into florets</li><hr>
-          <li class="nobullet">2 tbsp sesame oil</li><hr>
-          <li class="nobullet">1 tbsp sesame seeds</li><hr>
-          <li class="nobullet">1 tbsp cornflour</li><hr>
-          <li class="nobullet">250g pouch microwave basmati rice</li><hr>
-          <li class="nobullet">2 spring onions, trimmed and shredded</li><hr>
-          <li class="nobullet">1 red chilli, sliced</li><hr>
+        <ul>
+          <li class="nobullet">200g Plant Chef organic firm tofu</li>
+          <hr>
+          <li class="nobullet">3 tbsp hoisin dipping sauce</li>
+          <hr>
+          <li class="nobullet">2 tbsp reduced-salt soy sauce</li>
+          <hr>
+          <li class="nobullet">1 tbsp maple syrup</li>
+          <hr>
+          <li class="nobullet">3cm piece fresh ginger, peeled and grated</li>
+          <hr>
+          <li class="nobullet">375g head of broccoli, cut into florets</li>
+          <hr>
+          <li class="nobullet">2 tbsp sesame oil</li>
+          <hr>
+          <li class="nobullet">1 tbsp sesame seeds</li>
+          <hr>
+          <li class="nobullet">1 tbsp cornflour</li>
+          <hr>
+          <li class="nobullet">250g pouch microwave basmati rice</li>
+          <hr>
+          <li class="nobullet">2 spring onions, trimmed and shredded</li>
+          <hr>
+          <li class="nobullet">1 red chilli, sliced</li>
+          <hr>
         </ul>
 
       </div>
       <div class="col-lg-8 col-12 nopadding">
         <h2 class="recipe-title-h2">Method</h2>
-          <ol>
-            <li class="listmargin">Pat the tofu dry with kitchen paper. Lay flat on a lined baking tray, then place another baking tray on top and place a heavy frying pan on top; set aside.</li><hr>
-            <li class="listmargin">Whisk together the hoisin, soy sauce, maple syrup and grated ginger in a small bowl; set aside.</li><hr>
-            <li class="listmargin">Tip the broccoli into a heatproof bowl and pour over just boiled water from the kettle to cover. Leave for 2 mins, then drain. Heat half the sesame oil in a wok or large frying pan over a high heat and add the broccoli florets. Fry for 4-5 mins until tender and charred. Transfer to a bowl and set aside. Wipe out the pan, return to the heat and add the sesame seeds to toast for 30 secs, then transfer to a small plate.</li><hr>
-            <li class="listmargin">Meanwhile, pat the tofu dry again and and cut into 2cm cubes. Toss with the cornflour and a little seasoning to coat. Heat the remaining oil in the empty pan over a high heat, then fry the tofu for 5-6 mins, turning occasionally, until crisp. Turn down the heat slightly, then stir in the hoisin sauce mixture, toss to coat and heat through for 1 min. Stir in most of the sesame seeds.</li><hr>
-            <li class="listmargin">Heat the rice according to the pack instructions. Spoon into bowls, then top with the sticky tofu and charred broccoli. To serve, scatter with the spring onions, chilli and remaining sesame seeds.</li><hr>
-          </ol>
+        <ol>
+          <li class="listmargin">Pat the tofu dry with kitchen paper. Lay flat on a lined baking tray, then place
+            another baking tray on top and place a heavy frying pan on top; set aside.</li>
+          <hr>
+          <li class="listmargin">Whisk together the hoisin, soy sauce, maple syrup and grated ginger in a small bowl;
+            set aside.</li>
+          <hr>
+          <li class="listmargin">Tip the broccoli into a heatproof bowl and pour over just boiled water from the kettle
+            to cover. Leave for 2 mins, then drain. Heat half the sesame oil in a wok or large frying pan over a high
+            heat and add the broccoli florets. Fry for 4-5 mins until tender and charred. Transfer to a bowl and set
+            aside. Wipe out the pan, return to the heat and add the sesame seeds to toast for 30 secs, then transfer to
+            a small plate.</li>
+          <hr>
+          <li class="listmargin">Meanwhile, pat the tofu dry again and and cut into 2cm cubes. Toss with the cornflour
+            and a little seasoning to coat. Heat the remaining oil in the empty pan over a high heat, then fry the tofu
+            for 5-6 mins, turning occasionally, until crisp. Turn down the heat slightly, then stir in the hoisin sauce
+            mixture, toss to coat and heat through for 1 min. Stir in most of the sesame seeds.</li>
+          <hr>
+          <li class="listmargin">Heat the rice according to the pack instructions. Spoon into bowls, then top with the
+            sticky tofu and charred broccoli. To serve, scatter with the spring onions, chilli and remaining sesame
+            seeds.</li>
+          <hr>
+        </ol>
       </div>
     </div>
   </section>
 
   <footer class="footer container-fluid footer-color sticky-bottom" id="footer">
     <div id="footer-details" class="row">
-       <div class="col-sm-12">
+      <div class="col-sm-12">
         <h5 class="uppercase general-sub">Socials</h5>
         <ul class="list-inline social-links">
           <li class="list-inline-item">

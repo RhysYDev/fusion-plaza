@@ -81,6 +81,9 @@ body {
     padding-left: 15px;
 }
 
+.navbar-toggler {
+    color: #000000;
+}
 
 /*-- Footer--*/
 
